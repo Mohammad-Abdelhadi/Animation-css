@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(188, 73, 73);
+}
+.car img {
+  width: 50px;
+  height: 100px;
+  animation-name: car;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  margin-bottom: 100px;
+}
+
+.car {
+  height: 50px;
+  width: 100%;
+  margin: 100px;
+}
+@keyframes car {
+  from {
+    width: 25vw;
+  }
+
+  to {
+    width: 100vw;
+  }
+}
+/* sec-car */
+.sec-car img {
+  width: 50px;
+  height: 100px;
+  animation-name: sec-car;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes sec-car {
+  from {
+    width: 25vw;
+  }
+
+  to {
+    width: 150vw;
+  }
+}
+/* third car */
+.third-car img {
+  width: 50px;
+  height: 100px;
+  animation-name: third-car;
+  animation-duration: 3s;
+  animation-delay: 0.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes third-car {
+  from {
+    width: 50vw;
+  }
+
+  to {
+    width: 200vw;
+  }
+}
+/* fourth car */
+.fourth-car img {
+  width: 250px;
+  height: 100px;
+  animation-name: fourth-car;
+  animation-duration: 3s;
+  animation-delay: 0.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes fourth-car {
+  from {
+    width: 25vh;
+    rotate: 30deg;
+  }
+
+  to {
+    width: 250vh;
+    rotate: 360deg;
+  }
+}
